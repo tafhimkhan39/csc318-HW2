@@ -1,4 +1,114 @@
-.flag{
-    width: 100px;
-    height: 100px;
+.flag {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.flag > div {
+    flex: 1;
+}
+
+.red-threevert {
+    background-color: #ED2939;
+}
+
+#white {
+    background-color: #FFFFFF;
+}
+
+.light-blue-threevert {
+    background-color: #00A1DE;
+}
+.thailand-red {
+    background-color: #B5002D;
+}
+.thailand-blue {
+    background-color: #2E2A4C;
+    padding: 20px;
+}
+.threehoriz {
+    width: 300px;
+    height: 200px;
+    display: flex-dir;
+}
+.threehoriz {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.threehoriz > div {
+    flex: 1;
+}
+
+.romania-blue {
+    background-color: #002B7F;
+}
+
+.romania-yellow {
+    background-color: #FCD116;
+}
+
+.romania-red {
+    background-color: #CE1126;
+}
+.mexico-green {
+    background-color: #006847; 
+}
+
+.mexico-white {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.mexico-white img {
+    max-height: 90%; 
+    max-width: 90%;
+}
+
+.mexico-red {
+    background-color: #CE1126; 
+}
+
+.label { 
+    color: rgb(2, 97, 104);
+}
+  
+.label:hover {
+    font-size: 30px;
+    color: rgb(1, 191, 205);
+}
+
+.margin-container {
+    height: 200px;
+    width: 800px;
+    border-style: solid;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+#flag1 {
+    background-color: red;
+    width: 100%;
+    margin-right: 5px;
+}
+  
+#flag2 {
+    background-color: blue;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.padding-container {
+    box-sizing: border-box;
+    background-color: rgb(225, 211, 17);
+    background-clip: content-box, padding-box;
+    padding: 30px;
 }
